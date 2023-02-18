@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Aruba Ruby Conference 2023 <a name="about-project"></a>
+# 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
 
-**Aruba Ruby Conference 2023** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
+**Portfolio-setup-and-mobile-first** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
