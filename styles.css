@@ -87,4 +87,20 @@ header {
   text-decoration: none;
 }
 
+#social-icons {
+  color: #172b4d;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
 
+.icon {
+  color: #505f79;
+  margin-right: 12px;
+}
+
+#icon-color {
+  color: grey;
+}
