@@ -178,7 +178,7 @@ Please star this project if you like this project.
 
 - **How can I see the project?**
 
-  - Just clone the repository as expained in the setup section, and open the index.html file in your preferred browser.
+  - Just clone the repository as expained in the setup section, and open the index.html file in your preferred browser ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
