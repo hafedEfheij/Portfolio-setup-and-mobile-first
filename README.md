@@ -35,7 +35,7 @@
 
 # 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
 
-**Portfolio-setup-and-mobile-first** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
+**PPortfolio: finish mobile version** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,8 +81,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:hafedEfheij/Capstone-Project-1.git
-```
+  git clone git@github.com:hafedEfheij/Portfolio-setup-and-mobile-first.git
 
 ### Install
 
