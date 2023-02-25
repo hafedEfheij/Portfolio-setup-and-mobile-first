@@ -230,6 +230,10 @@ header {
   background: #6070ff;
 }
 
+.btn:active {
+  background-color: #2230d2;
+}
+
 #about-container {
   box-sizing: border-box;
   margin: 0;
