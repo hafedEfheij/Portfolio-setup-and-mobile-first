@@ -127,6 +127,12 @@ To run tests, run the following command:
 - GitHub: [@hafed-Efheij](https://github.com/Hafedefheij)
 - LinkedIn: [Hafed-Efehij](https://linkedin.com/in/hafedefheij)
 
+👤 **Oscar Villagran**
+
+- GitHub: [@oovillagran](https://github.com/oovillagran)
+- LinkedIn: [oovillagran](https://www.linkedin.com/in/oovillagran/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
