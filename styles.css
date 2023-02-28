@@ -463,3 +463,7 @@ input {
   width: 134px;
   background: #000;
 }
+
+input::placeholder {
+  color: #172b4d;
+}
