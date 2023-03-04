@@ -6,10 +6,12 @@ body {
   background: #f7f7f9;
 }
 
-/* HEADER TOOLBAR SECTION */
+/*
+===========================
+HEADER SECTION
+*/
 
 header {
-  box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
@@ -28,13 +30,26 @@ header {
 
 #logo {
   font-size: 18px;
-  line-height: 20px;
   font-weight: 700;
   color: #6070ff;
   display: flex;
   padding: 10px;
   align-items: center;
   text-decoration: none;
+}
+
+#logo:hover {
+  animation: flip 1s linear;
+}
+
+@keyframes flip {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg);
+  }
 }
 
 #menu-bars-container {
@@ -50,48 +65,20 @@ header {
   margin: 6px 0;
 }
 
-#menu {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  header {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  #menu-bars {
-    display: none;
-  }
-  #menu {
-    display: block;
-    list-style: none;
-    display: flex;
-  }
-  #menu a {
-    text-decoration: none;
-    padding: 12px;
-    margin-left: 8px;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #344563;
-  }
-}
-
-/* HEADLINE SECTION */
+/*
+===========================
+HEADLINE SECTION
+*/
 
 #headline-container {
   box-sizing: border-box;
-  margin-top: 48px;
+  margin: 48px 0 0 0;
   padding: 114px 24px 0 24px;
   min-height: 626px;
   height: 100%;
+  min-width: 375px;
   width: 100%;
-  background: #fff;
-  background-image: url('images/headline-bg.png');
+  background-image: url('images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0 0 90px;
@@ -104,12 +91,14 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  row-gap: 12px;
 }
 
 .header {
   margin: 0;
   padding: 0;
   width: 100%;
+  max-width: 355px;
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
@@ -119,10 +108,13 @@ header {
 }
 
 .text {
+  margin: 10px 0;
   padding: 0;
   font-size: 16px;
   line-height: 24px;
   width: 100%;
+  max-width: 355px;
+  overflow: auto;
   color: #344563;
 }
 
@@ -150,24 +142,10 @@ header {
   font-size: 24px;
 }
 
-@media screen and (min-width: 768px) {
-  #headline-container {
-    background-image: url('images/headline-bg-desktop.png');
-    background-size: cover;
-    background-position: top left;
-    min-height: 846px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #headline {
-    width: 65vw;
-  }
-}
-
-/* WORKS SECTION */
+/*
+===========================
+WORKS SECTION
+*/
 
 #works {
   display: grid;
@@ -274,6 +252,7 @@ header {
 .btn > a {
   text-decoration: none;
   color: inherit;
+  transition: all 0.5s ease-out;
 }
 
 .btn:hover {
@@ -288,7 +267,10 @@ header {
   border: 1px solid #fff;
 }
 
-/* ABOUT SECTION */
+/*
+===========================
+ABOUT SECTION
+*/
 
 #about-container {
   box-sizing: border-box;
@@ -380,7 +362,10 @@ header {
   padding-right: 16px;
 }
 
-/* CONTACT SECTION */
+/*
+===========================
+CONTACT FORM SECTION
+*/
 
 #contact-form-container {
   margin: 0;
@@ -503,8 +488,6 @@ input {
   border: 1px solid #fff;
 }
 
-/* FOOTER SECTION */
-
 #footer {
   height: 35px;
   width: 100%;
@@ -521,11 +504,4 @@ input {
   height: 5px;
   width: 134px;
   background: #000;
-}
-
-#works-container {
-  box-sizing: border-box;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
