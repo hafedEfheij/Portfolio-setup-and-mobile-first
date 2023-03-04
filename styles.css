@@ -2,11 +2,14 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: #f7f7f9;
 }
 
+/* HEADER TOOLBAR SECTION */
+
 header {
+  box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,10 +17,18 @@ header {
   width: 100%;
   background: #fff;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+#toolbar {
+  display: flex;
+  height: 48px;
+  justify-content: space-between;
 }
 
 #logo {
   font-size: 18px;
+  line-height: 20px;
   font-weight: 700;
   color: #6070ff;
   display: flex;
@@ -26,11 +37,51 @@ header {
   text-decoration: none;
 }
 
-#toolbar {
+#menu-bars-container {
+  padding-right: 10px;
   display: flex;
-  height: 48px;
-  justify-content: space-between;
+  align-items: center;
 }
+
+.menu-bar {
+  width: 20px;
+  height: 2px;
+  background-color: #6070ff;
+  margin: 6px 0;
+}
+
+#menu {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #menu-bars {
+    display: none;
+  }
+  #menu {
+    display: block;
+    list-style: none;
+    display: flex;
+  }
+  #menu a {
+    text-decoration: none;
+    padding: 12px;
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+  }
+}
+
+/* HEADLINE SECTION */
 
 #headline-container {
   box-sizing: border-box;
@@ -40,7 +91,7 @@ header {
   height: 100%;
   min-width: 375px;
   width: 100%;
-  background-image: url("images/background.png");
+  background-image: url('images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0 0 90px;
@@ -56,17 +107,37 @@ header {
   row-gap: 12px;
 }
 
-#menu-bars-container {
-  padding-right: 10px;
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 355px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
-.menu-bar {
-  width: 20px;
-  height: 2px;
-  background-color: #6070ff;
-  margin: 6px 0;
+.text {
+  margin: 10px 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+  max-width: 355px;
+  overflow: auto;
+  color: #344563;
+}
+
+#connect {
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-transform: uppercase;
 }
 
 #social-icons {
@@ -83,6 +154,8 @@ header {
   margin-right: 12px;
   font-size: 24px;
 }
+
+/* WORKS SECTION */
 
 #works {
   display: grid;
@@ -114,40 +187,6 @@ header {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-}
-
-.header {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 355px;
-  font-size: 40px;
-  line-height: 52px;
-  font-weight: 700;
-  color: #172b4d;
-  display: flex;
-  align-items: flex-end;
-}
-
-.text {
-  margin: 10px 0;
-  padding: 0;
-  font-size: 16px;
-  line-height: 24px;
-  width: 100%;
-  max-width: 355px;
-  overflow: auto;
-  color: #344563;
-}
-
-#connect {
-  box-sizing: border-box;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-  text-transform: uppercase;
 }
 
 .work-card > .experience {
@@ -231,8 +270,13 @@ header {
 }
 
 .btn:active {
-  background-color: #2230d2;
+  background: #2230d2;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border: 1px solid #fff;
 }
+
+/* ABOUT SECTION */
 
 #about-container {
   box-sizing: border-box;
@@ -253,7 +297,6 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   row-gap: 12px;
-  margin-bottom: 100px;
 }
 
 #categories-container {
@@ -306,12 +349,6 @@ header {
   row-gap: 12px;
 }
 
-.detail > img {
-  mix-blend-mode: multiply;
-  object-fit: contain;
-  padding-right: 16px;
-}
-
 .detail {
   box-sizing: border-box;
   min-width: 303px;
@@ -324,6 +361,14 @@ header {
   align-items: center;
   padding: 10px;
 }
+
+.detail > img {
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  padding-right: 16px;
+}
+
+/* CONTACT SECTION */
 
 #contact-form-container {
   margin: 0;
@@ -445,6 +490,8 @@ input {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border: 1px solid #fff;
 }
+
+/* FOOTER SECTION */
 
 #footer {
   height: 35px;
