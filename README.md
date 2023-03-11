@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Here you can see a [Live Demo]( https://hafedefheij.github.io/Portfolio-setup-and-mobile-first/) of my project.
+- Here you can see a  [Live Demo]( https://hafedefheij.github.io/Portfolio-setup-and-mobile-first/) of my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
@@ -185,7 +185,7 @@ Please star this project if you like this project.
 
 - **Can I re-use your code?**
 
-  - Sure, no problem!
+  - Sure, no problem!..
 
 - **How can I see the project?**
 
