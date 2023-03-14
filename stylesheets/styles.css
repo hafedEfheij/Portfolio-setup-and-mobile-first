@@ -738,7 +738,7 @@ input {
   width: 100vw;
   height: 100vh;
   z-index: 9999;
-  background: #6070ff;
+  background: #adff60;
   mix-blend-mode: multiply;
   backdrop-filter: blur(10px);
 }
@@ -767,7 +767,7 @@ input {
   width: 100%;
   padding: 10px;
   margin: 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 2rem;
   line-height: 4rem;
