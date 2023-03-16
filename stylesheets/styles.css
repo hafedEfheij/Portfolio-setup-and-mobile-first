@@ -304,6 +304,10 @@ fieldset {
   flex-direction: row-reverse;
 }
 
+#works li:nth-child(4) .work-card__technologies {
+  flex-direction: row-reverse;
+}
+
 .work-card__experience > li:first-child {
   font-weight: 600;
   font-size: 0.8rem;
@@ -412,7 +416,15 @@ fieldset {
   direction: rtl;
 }
 
+#works li:nth-child(4) {
+  direction: rtl;
+}
+
 #works li:nth-child(2) .work-card__experience {
+  flex-direction: row-reverse;
+}
+
+#works li:nth-child(4) .work-card__experience {
   flex-direction: row-reverse;
 }
 

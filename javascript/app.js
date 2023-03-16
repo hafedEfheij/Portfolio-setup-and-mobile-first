@@ -36,7 +36,7 @@ const worksArray = [
     urlDesktop: '/images/work_1_lg.png',
     urlModal: '/images/work_modal.png',
     alt: 'work_tonic_daily_personalized_reads',
-    live: 'https://hafedefheij.github.io',
+    live: 'https://github.com/hafedEfheij',
     source: 'https://hafedefheij.github.io/mobile-portfolio/',
   },
   {
@@ -50,7 +50,7 @@ const worksArray = [
     urlDesktop: 'images/work_2_lg.png',
     urlModal: '/images/work_modal.png',
     alt: 'work_multi-post_stories_daily_personalized_reads',
-    live: 'https://hafedefheij.github.io',
+    live: 'https://github.com/hafedEfheij',
     source: 'https://hafedefheij.github.io/mobile-portfolio/',
   },
   {
@@ -64,7 +64,7 @@ const worksArray = [
     urlDesktop: 'images/work_3_lg.png',
     urlModal: '/images/work_modal.png',
     alt: 'work_tonic_daily_personalized_reads',
-    live: 'https://hafedefheij.github.io/',
+    live: 'https://github.com/hafedEfheij',
     source: 'https://hafedefheij.github.io/mobile-portfolio/',
   },
   {
@@ -78,7 +78,7 @@ const worksArray = [
     urlDesktop: 'images/work_4_lg.png',
     urlModal: '/images/work_modal.png',
     alt: 'work_multi-post_stories_daily_personalized_reads',
-    live: 'https://hafedefheij.github.io/',
+    live: 'https://github.com/hafedEfheij',
     source: 'https://hafedefheij.github.io/mobile-portfolio/',
   },
 ];
