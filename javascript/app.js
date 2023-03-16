@@ -1,95 +1,95 @@
-const menuBars = document.getElementById("menu-bars");
-const mobileMenu = document.getElementById("mobile-menu");
-const closeMenuBtn = document.getElementById("close-menu-btn");
-const mobileLinks = document.getElementById("mobile-links");
-const workModal = document.getElementById("work-modal");
+const menuBars = document.getElementById('menu-bars');
+const mobileMenu = document.getElementById('mobile-menu');
+const closeMenuBtn = document.getElementById('close-menu-btn');
+const mobileLinks = document.getElementById('mobile-links');
+const workModal = document.getElementById('work-modal');
 
 const preventDefaultHandler = (e) => {
   e.preventDefault();
 };
 
 const openMenuHandler = () => {
-  mobileMenu.classList.replace("d-none", "d-flex");
-  document.body.classList.add("stop-scrolling");
-  document.body.addEventListener("touchmove", preventDefaultHandler);
+  mobileMenu.classList.replace('d-none', 'd-flex');
+  document.body.classList.add('stop-scrolling');
+  document.body.addEventListener('touchmove', preventDefaultHandler);
 };
 
 function closeMenuHandler() {
-  mobileMenu.classList.replace("d-flex", "d-none");
-  document.body.classList.remove("stop-scrolling");
-  document.body.removeEventListener("touchmove", preventDefaultHandler);
+  mobileMenu.classList.replace('d-flex', 'd-none');
+  document.body.classList.remove('stop-scrolling');
+  document.body.removeEventListener('touchmove', preventDefaultHandler);
 }
 
-menuBars.addEventListener("click", openMenuHandler);
-closeMenuBtn.addEventListener("click", closeMenuHandler);
-mobileLinks.addEventListener("click", closeMenuHandler);
+menuBars.addEventListener('click', openMenuHandler);
+closeMenuBtn.addEventListener('click', closeMenuHandler);
+mobileLinks.addEventListener('click', closeMenuHandler);
 
 const worksArray = [
   {
     id: 0,
-    title: "Tonic",
-    experiences: ["Canopy", "Back End Dev", "2015"],
+    title: 'Tonic',
+    experiences: ['Canopy', 'Back End Dev', '2015'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ["html", "css", "javascript", "github", "ruby", "Bootstraps"],
-    urlMobile: "/images/work_1.jpg",
-    urlDesktop: "/images/work_1_lg.png",
-    urlModal: "/images/work_modal.png",
-    alt: "work_tonic_daily_personalized_reads",
-    live: "https://dennis-every.github.io/",
-    source: "https://github.com/dennis-every/portfolio",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+    urlMobile: '/images/work_1.jpg',
+    urlDesktop: '/images/work_1_lg.png',
+    urlModal: '/images/work_modal.png',
+    alt: 'work_tonic_daily_personalized_reads',
+    live: 'https://hafedefheij.github.io',
+    source: 'https://hafedefheij.github.io/mobile-portfolio/',
   },
   {
     id: 1,
-    title: "Multi-Post Stories",
-    experiences: ["Canopy", "Back End Dev", "2015"],
+    title: 'Multi-Post Stories',
+    experiences: ['Canopy', 'Back End Dev', '2015'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ["html", "css", "javascript", "github", "ruby", "Bootstraps"],
-    urlMobile: "images/work_2.jpg",
-    urlDesktop: "images/work_2_lg.png",
-    urlModal: "/images/work_modal.png",
-    alt: "work_multi-post_stories_daily_personalized_reads",
-    live: "https://dennis-every.github.io/",
-    source: "https://github.com/dennis-every/portfolio",
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+    urlMobile: 'images/work_2.jpg',
+    urlDesktop: 'images/work_2_lg.png',
+    urlModal: '/images/work_modal.png',
+    alt: 'work_multi-post_stories_daily_personalized_reads',
+    live: 'https://hafedefheij.github.io',
+    source: 'https://hafedefheij.github.io/mobile-portfolio/',
   },
   {
     id: 2,
-    title: "Tonic",
-    experiences: ["Canopy", "Back End Dev", "2015"],
+    title: 'Tonic',
+    experiences: ['Canopy', 'Back End Dev', '2015'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ["html", "css", "javascript", "github", "ruby", "Bootstraps"],
-    urlMobile: "images/work_3.jpg",
-    urlDesktop: "images/work_3_lg.png",
-    urlModal: "/images/work_modal.png",
-    alt: "work_tonic_daily_personalized_reads",
-    live: "https://dennis-every.github.io/",
-    source: "https://github.com/dennis-every/portfolio",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+    urlMobile: 'images/work_3.jpg',
+    urlDesktop: 'images/work_3_lg.png',
+    urlModal: '/images/work_modal.png',
+    alt: 'work_tonic_daily_personalized_reads',
+    live: 'https://hafedefheij.github.io/',
+    source: 'https://hafedefheij.github.io/mobile-portfolio/',
   },
   {
     id: 3,
-    title: "Multi-Post Stories",
-    experiences: ["Canopy", "Back End Dev", "2015"],
+    title: 'Multi-Post Stories',
+    experiences: ['Canopy', 'Back End Dev', '2015'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ["html", "css", "javascript", "github", "ruby", "Bootstraps"],
-    urlMobile: "images/work_4.jpg",
-    urlDesktop: "images/work_4_lg.png",
-    urlModal: "/images/work_modal.png",
-    alt: "work_multi-post_stories_daily_personalized_reads",
-    live: "https://dennis-every.github.io/",
-    source: "https://github.com/dennis-every/portfolio",
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+    urlMobile: 'images/work_4.jpg',
+    urlDesktop: 'images/work_4_lg.png',
+    urlModal: '/images/work_modal.png',
+    alt: 'work_multi-post_stories_daily_personalized_reads',
+    live: 'https://hafedefheij.github.io/',
+    source: 'https://hafedefheij.github.io/mobile-portfolio/',
   },
 ];
 
 const worksLoadHandler = () => {
-  const works = document.getElementById("works");
+  const works = document.getElementById('works');
   worksArray.forEach((work) => {
-    const workCard = document.createElement("li");
-    workCard.classList.add("work-card");
+    const workCard = document.createElement('li');
+    workCard.classList.add('work-card');
     workCard.innerHTML = `
-      <article class='work-card__article'>
+      <article  class='work-card__article'>
         <div class='work-card__header'>
           <picture>
             <source srcset=${work.urlDesktop} media='(min-width: 768px)' />
@@ -132,18 +132,18 @@ const worksLoadHandler = () => {
 };
 
 const closeWorkModalHandler = () => {
-  workModal.classList.replace("d-flex", "d-none");
-  workModal.innerHTML = "";
-  document.body.classList.remove("stop-scrolling");
-  document.body.removeEventListener("touchmove", preventDefaultHandler);
+  workModal.classList.replace('d-flex', 'd-none');
+  workModal.innerHTML = '';
+  document.body.classList.remove('stop-scrolling');
+  document.body.removeEventListener('touchmove', preventDefaultHandler);
 };
 
 const cardClickHandler = (id) => {
-  workModal.classList.replace("d-none", "d-flex");
-  document.body.classList.add("stop-scrolling");
-  document.body.addEventListener("touchmove", preventDefaultHandler);
-  const workCard = document.createElement("div");
-  workCard.classList.add("work-card", "container-md");
+  workModal.classList.replace('d-none', 'd-flex');
+  document.body.classList.add('stop-scrolling');
+  document.body.addEventListener('touchmove', preventDefaultHandler);
+  const workCard = document.createElement('div');
+  workCard.classList.add('work-card', 'container-md');
   workCard.innerHTML = `
     <div class='row'>
       <header class='work-card__title col-10'>
@@ -199,14 +199,14 @@ const cardClickHandler = (id) => {
       <div id='black-bar'></div>
     </div>`;
   workModal.appendChild(workCard);
-  const closeWorkModalBtn = document.getElementById("close-modal-btn");
-  closeWorkModalBtn.addEventListener("click", closeWorkModalHandler);
+  const closeWorkModalBtn = document.getElementById('close-modal-btn');
+  closeWorkModalBtn.addEventListener('click', closeWorkModalHandler);
 };
 
 const worksActivateLinkHandler = () => {
-  const workCards = document.querySelectorAll(".work-card");
+  const workCards = document.querySelectorAll('.work-card');
   workCards.forEach((card, index) => {
-    card.addEventListener("click", () => cardClickHandler(index));
+    card.addEventListener('click', () => cardClickHandler(index));
   });
 };
 

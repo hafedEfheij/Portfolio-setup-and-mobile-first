@@ -211,9 +211,11 @@ fieldset {
   border: 1px solid #dfe1e6;
   width: 100%;
   height: 100%;
-  min-height: 496px;
+  min-height: 430px;
   padding: 16px;
 }
+
+/* add  */
 
 .work-card__article {
   padding: 0;
@@ -262,6 +264,7 @@ fieldset {
   padding: 6px 0;
   margin: 0;
   display: flex;
+  flex-direction: row;
   gap: 12px;
 }
 
@@ -295,6 +298,10 @@ fieldset {
   color: #6070ff;
   padding: 4px 12px;
   margin-right: 8px;
+}
+
+#works li:nth-child(2) .work-card__technologies {
+  flex-direction: row-reverse;
 }
 
 .work-card__experience > li:first-child {
@@ -399,6 +406,14 @@ fieldset {
     font-weight: 500;
     font-size: 1.125rem;
   }
+}
+
+#works li:nth-child(2) {
+  direction: rtl;
+}
+
+#works li:nth-child(2) .work-card__experience {
+  flex-direction: row-reverse;
 }
 
 /* ABOUT SECTION */
@@ -810,6 +825,7 @@ input {
   }
 }
 
+/* APP.JS class */
 #close-modal-btn > i {
   color: #67798e;
   font-size: 1.2rem;
