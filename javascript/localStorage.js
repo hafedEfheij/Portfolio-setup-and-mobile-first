@@ -4,7 +4,7 @@
 // - if not: null ✅
 // create a single object for the data ✅
 // listen to change on input fields ✅
-// stringify that data
+// stringify that data ✅
 // set the object to local
 // on loads of page
 // - if available:
@@ -53,14 +53,18 @@ if (storageAvailable("localStorage")) {
   availableStorage = null;
 }
 
-let formData;
+let formData = {};
 
-name.addEventListener("change", (event) => {
-  console.log(event);
+name.addEventListener("change", () => {
+  formData.name = name.value;
 });
-emailInput.addEventListener("change", (event) => {
-  console.log(event);
+
+emailInput.addEventListener("change", () => {
+  formData.email = emailInput.value;
 });
-message.addEventListener("change", (event) => {
-  console.log(event);
+
+message.addEventListener("change", () => {
+  formData.message = message.value;
 });
+
+let jsonData = JSON.stringify(formData);
