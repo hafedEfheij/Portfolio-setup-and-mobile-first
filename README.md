@@ -2,11 +2,16 @@
 
 <div align="center">
 
-  <h1><b>Microverse Project Portfolio Page</b></h1>
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse Portfolio Page</b></h3>
+
+To see live demo [Click Here](https://hafedefheij.github.io/Portfolio-setup-and-mobile-first/) <br>
+
+
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -14,6 +19,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -22,17 +28,18 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Microverse Portfolio Page <a name="about-project"></a>
+# 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
 
-**Microverse project portfolio page** is a webpage built to showcase html and css skills learned during the microverse program
+**PPortfolio: finish mobile version** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,17 +47,25 @@
 
 - HTML
 - CSS
-- JAVASCRIPT
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Responsive pages**
-- **Contact form**
+- **Responsive Pages**
+- **Mobile Menu interactions using JS**
+- **Load webpage data using JS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Here you can see a  [Live Demo]( https://hafedefheij.github.io/Portfolio-setup-and-mobile-first/) of my project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -59,14 +74,12 @@ To get a local copy up and running, follow these steps.
 
 ```sh
   cd my-folder
-  git clone git@github.com:hafedEfheij/mobile-portfolio.git
+  git git@github.com:hafedEfheij/Portfolio-setup-and-mobile-first.git
 ```
 
 ### Prerequisites
 
-In order to run the tests for this project you need:
-
-Example command:
+In order to run this project you need:
 
 ```sh
  npm install
@@ -74,14 +87,11 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder.
-
-Example commands:
+Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:hafedEfheij/mobile-portfolio.git
-```
+  git clone git@github.com:hafedEfheij/Portfolio-setup-and-mobile-first.git
 
 ### Install
 
@@ -107,10 +117,14 @@ To run tests, run the following command:
   npx stylelint "**/*.{css,scss}"
 ```
 
+```sh
+  npx eslint .
+```
+
 ### Deployment
 
 - Deployed with github pages at:
-- https://hafedefheij.github.io/mobile-portfolio/
+- https://github.com/hafedEfheij/Portfolio-setup-and-mobile-first
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,15 +134,32 @@ To run tests, run the following command:
 
 👤 **Hafed Efheij**
 
-- GitHub: [@hafed](https://github.com/hafedefheij)
-- LinkedIn: [Hafed](https://linkedin.com/in/hafedefheij)
+- GitHub: [@hafed-Efheij](https://github.com/Hafedefheij)
+- LinkedIn: [Hafed-Efehij](https://linkedin.com/in/hafedefheij)
 
-## 👥 Collaborator <a name="collaborators"></a>
+👤 **Oscar Villagran**
 
-👤 **Nelson**
+- GitHub: [@oovillagran](https://github.com/oovillagran)
+- LinkedIn: [oovillagran](https://www.linkedin.com/in/oovillagran/)
+- 
+👤 **Damian Dib Bustros**
 
-- GitHub: [@NelsonAraujo93](https://github.com/NelsonAraujo93)
+- GitHub: [@DamianDib9](https://github.com/oovillagran)
+- LinkedIn: [DamianDib](https://ar.linkedin.com/in/damian-dib-bustros-953577261)
 
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Make MORE button on the home page functional]**
+- [ ] **[Tickets page]**
+- [ ] **[Schedula page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,20 +185,21 @@ Please star this project if you like this project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to microverse for giving me a path to follow in this learning journey. Thanks to my mates who walk by me in this journey and share they experiences an knowledge with me, you make this experience more valuable!
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ <a name="faq"></a>
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 - **Can I re-use your code?**
 
-  - Sure, no problem!
+  - Sure, no problem!..
 
 - **How can I see the project?**
 
-  - Just clone the repository as expained in the setup section, and open the index.html file in your preferred browser.
+  - Just clone the repository as expained in the setup section, and open the index.html file in your preferred browser ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
