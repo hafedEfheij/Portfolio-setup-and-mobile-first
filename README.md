@@ -1,17 +1,17 @@
 <a name="readme-top"></a>
 
-# 📖 [My Portfolio project] <a name="about-project"></a>
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse Portfolio Page</b></h3>
+
+To see live demo [Click Here](https://hafedefheij.github.io/Portfolio-setup-and-mobile-first/) <br>
 
 
-**[RWD portfolio]** is a web development project for Microverse.
 
-To see live demo [Click Here](https://damiandib9.github.io/averger/) <br>
-To see walktrough [Click Here](https://www.loom.com/share/e902921ee9bf4e0f98aba50ef0a9302b)
-
-
-
-
-
+</div>
 
 # 📗 Table of Contents
 
@@ -26,155 +26,187 @@ To see walktrough [Click Here](https://www.loom.com/share/e902921ee9bf4e0f98aba5
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Author](#author)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
+# 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
 
-# 📖 [RWD Portfolio] <a name="about-project"></a>
+**PPortfolio: finish mobile version** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
 
-
-**[RWD Portfolio]** is a web development project for Microverse.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+- HTML
+- CSS
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li>HTML & CSS</li>
-  </ul>
-</details>
-
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-
-
-- **[Easy to use]**
-- **[Intuitive UI]**
-- **[Responsive design]**
+- **Responsive Pages**
+- **Mobile Menu interactions using JS**
+- **Load webpage data using JS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- N/A
+- Here you can see a  [Live Demo]( https://hafedefheij.github.io/Portfolio-setup-and-mobile-first/) of my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and running, follow these steps.
 
-To get a local copy up and running, follow these steps.<br>
+```sh
+  cd my-folder
+  git git@github.com:hafedEfheij/Portfolio-setup-and-mobile-first.git
+```
 
 ### Prerequisites
 
-In order to run this project you need:<br>
+In order to run this project you need:
 
--Have VSCode or another text editor installed. <a href="https://code.visualstudio.com/download">Click to download VSC text editor</a> <br> 
--Install node package. <a href="https://nodejs.org/en/download/">Click to download node package</a> <br> 
--Have git installed. <a href="https://git-scm.com/downloads">Click to download git</a> <br> 
--Create a GitHub repository. <a href="https://github.com/">Click to visit Github Website</a> <br> 
-
+```sh
+ npm install
+```
 
 ### Setup
 
-Clone this repository to your desired folder:<br>
+Clone this repository to your desired folder:
 
-cd my-folder
-  git clone git@github.com:DamianDib9/HelloWorld.git<br>
-
+```sh
+  cd my-folder
+  git clone git@github.com:hafedEfheij/Portfolio-setup-and-mobile-first.git
 
 ### Install
 
-N/A
+n/a
 
 ### Usage
-<br>
-To use with Visual Studio Code, Sublime text, Atom or any text editor.<br>
 
+Open index.html in your preferred browser.
 
 ### Run tests
-<br>
-To run tests, run the following command: <br>
-First of all use git bash over microsoft powershell in order to avoid errors.<br>
-<br>
-Example commands:<br>
-You can use HTML file to use this command line in the console: npx hint .<br>
-You can use CSS file to use this command line in the console: npx stylelint "**/*.{css,scss}"<br>
 
+To run tests, run the following command:
+
+```sh
+  npm install
+```
+
+```sh
+  npx hint .
+```
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+
+```sh
+  npx eslint .
+```
 
 ### Deployment
 
-You can deploy this project using:<br>
-gitbash, github, github desktop.
+- Deployed with github pages at:
+- https://github.com/hafedEfheij/Portfolio-setup-and-mobile-first
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
 
-## 👥 Author <a name="author"></a>
+## 👥 Author <a name="authors"></a>
 
+👤 **Hafed Efheij**
 
-👤 **Damian**
+- GitHub: [@hafed-Efheij](https://github.com/Hafedefheij)
+- LinkedIn: [Hafed-Efehij](https://linkedin.com/in/hafedefheij)
 
-- GitHub: [@githubhandle](https://github.com/damiandib9)
-- Twitter: [@twitterhandle](https://twitter.com/devbustros)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/damian-dib-bustros-953577261)
+👤 **Oscar Villagran**
 
-👤 **Hafed**
+- GitHub: [@oovillagran](https://github.com/oovillagran)
+- LinkedIn: [oovillagran](https://www.linkedin.com/in/oovillagran/)
+- 
+👤 **Damian Dib Bustros**
 
-- GitHub: [@Hafedefheij](https://github.com/Hafedefheij)
-)
-- LinkedIn: [Hafedefheij](https://linkedin.com/in/Hafedefheij)
+- GitHub: [@DamianDib9](https://github.com/oovillagran)
+- LinkedIn: [DamianDib](https://ar.linkedin.com/in/damian-dib-bustros-953577261)
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[New user interface]**
-- [ ] **[Picture Slideshow]**
-- [ ] **[User forum]**
+- [ ] **[Make MORE button on the home page functional]**
+- [ ] **[Tickets page]**
+- [ ] **[Schedula page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project please share it with your friends.
+Please star this project if you like this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank all of my family for helping me trough this Microverse course.
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
 
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Can I re-use your code?**
+
+  - Sure, no problem!..
+
+- **How can I see the project?**
+
+  - Just clone the repository as expained in the setup section, and open the index.html file in your preferred browser ...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](./MIT.md) licensed
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
