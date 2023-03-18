@@ -93,7 +93,7 @@ window.onload = () => {
   retrieveData();
 };
 
-//This it the button for resseting field in the form
+// This it the button for resseting field in the form
 const btnReset = document.getElementById('btn-reset');
 
 btnReset.addEventListener('click', (event) => {
