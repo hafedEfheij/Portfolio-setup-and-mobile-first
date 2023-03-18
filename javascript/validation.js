@@ -5,6 +5,3 @@
 //  on submit, preventDefault, perform validaton
 // if valid form.submit
 // else show an error message near submit button informing them the error and the form is not sent
-
-const form = document.getElementById("contact-form");
-const email = form.elements["email"];
