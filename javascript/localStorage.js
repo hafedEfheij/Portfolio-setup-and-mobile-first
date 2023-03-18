@@ -1,103 +1,94 @@
-// get form elements ✅
-// check local storage available ✅
-// - if available : create local storage object ✅
-// - if not: null ✅
-// create a single object for the data ✅
-// listen to change on input fields ✅
-// stringify that data ✅
-// set the object to local ✅
-// on loads of page ✅
-// - if available:
-// - if local storage has data: put data into fiels ✅
-// if not: nothing ✅
-//! create a reset button that reset the input fields and delete data in local storage
-
+// This code sets up a form on a webpage and allows users to store their data in local storage
 const contactForm = document.getElementById('contact-form');
 const {
-  name: nameInput,
-  email: emailInput,
-  message: messageInput,
+name: nameInput,
+email: emailInput,
+message: messageInput,
 } = contactForm.elements;
 
+// This function checks if the specified type of storage is available and returns a boolean value
+// It tries to set an item in storage and remove it, and returns true if successful
+// If an error is thrown, it returns false
 function storageAvailable(type) {
-  let storage;
-  try {
-    storage = window[type];
-    const x = '__storage_test__';
-    storage.setItem(x, x);
-    storage.removeItem(x);
-    return true;
-  } catch (e) {
-    return (
-      e instanceof DOMException
-      // everything except Firefox
-      && (e.code === 22
-        // Firefox
-        || e.code === 1014
-        // test name field too, because code might not be present
-        // everything except Firefox
-        || e.name === 'QuotaExceededError'
-        // Firefox
-        || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')
-      // acknowledge QuotaExceededError only if there's something already stored
-      && storage
-      && storage.length !== 0
-    );
-  }
+let storage;
+try {
+storage = window[type];
+const x = 'storage_test';
+storage.setItem(x, x);
+storage.removeItem(x);
+return true;
+} catch (e) {
+return (
+e instanceof DOMException
+&& (
+e.code === 22
+|| e.code === 1014
+|| e.name === 'QuotaExceededError'
+|| e.name === 'NS_ERROR_DOM_QUOTA_REACHED')
+&& storage
+&& storage.length !== 0
+);
+}
 }
 
+// This variable checks whether local storage is available and assigns it to availableStorage
 let availableStorage;
 
 if (storageAvailable('localStorage')) {
-  // Yippee! We can use localStorage awesomeness
-  availableStorage = window.localStorage;
+// If local storage is available, use it
+availableStorage = window.localStorage;
 } else {
-  // Too bad, no localStorage for us
-  availableStorage = null;
+// If local storage is not available, set availableStorage to null
+availableStorage = null;
 }
 
+// This object stores the form data
 const formData = {};
 
+// This function stores the form data in JSON format in local storage
 function storeData() {
-  formData.name = nameInput.value;
-  formData.email = emailInput.value;
-  formData.message = messageInput.value;
-  const jsonData = JSON.stringify(formData);
-  availableStorage.setItem('contactFormData', jsonData);
+formData.name = nameInput.value;
+formData.email = emailInput.value;
+formData.message = messageInput.value;
+const jsonData = JSON.stringify(formData);
+availableStorage.setItem('contactFormData', jsonData);
 }
 
+// These event listeners call the storeData() function when the input fields change
 nameInput.addEventListener('change', () => {
-  storeData();
+storeData();
 });
 
 emailInput.addEventListener('change', () => {
-  storeData();
+storeData();
 });
 
 messageInput.addEventListener('change', () => {
-  storeData();
+storeData();
 });
 
+// This function retrieves the form data from local storage and populates the form fields with it
 function retrieveData() {
-  const data = availableStorage.getItem('contactFormData');
-  const parseData = JSON.parse(data);
-  if (data?.length > 0) {
-    const { name, email, message } = parseData;
-    nameInput.value = name || '';
-    emailInput.value = email || '';
-    messageInput.value = message || '';
-  }
+const data = availableStorage.getItem('contactFormData');
+const parseData = JSON.parse(data);
+if (data?.length > 0) {
+const { name, email, message } = parseData;
+nameInput.value = name || '';
+emailInput.value = email || '';
+messageInput.value = message || '';
+}
 }
 
+// This event listener calls the retrieveData() function when the window loads
 window.onload = () => {
-  retrieveData();
+retrieveData();
 };
 
-// This it the button for resseting field in the form
+// This event listener resets the form and clears the local storage when the reset button is clicked
 const btnReset = document.getElementById('btn-reset');
 
 btnReset.addEventListener('click', (event) => {
-  event.preventDefault();
-  contactForm.reset();
-  availableStorage.clear();
+event.preventDefault();
+contactForm.reset();
+availableStorage.clear();
 });
