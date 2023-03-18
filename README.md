@@ -47,6 +47,7 @@ To see live demo [Click Here](https://hafedefheij.github.io/Portfolio-setup-and-
 
 - HTML
 - CSS
+- JavaScript
 
 <!-- Features -->
 
