@@ -7,10 +7,6 @@
 
   <h3><b>Microverse Portfolio Page</b></h3>
 
-To see live demo [Click Here](https://hafedefheij.github.io/Portfolio-setup-and-mobile-first/) <br>
-
-
-
 </div>
 
 # 📗 Table of Contents
@@ -37,9 +33,9 @@ To see live demo [Click Here](https://hafedefheij.github.io/Portfolio-setup-and-
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
+# 📖 Personal Portfolio <a name="about-project"></a>
 
-**PPortfolio: finish mobile version** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
+**Portfolio: setup and mobile first** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,7 +59,7 @@ To see live demo [Click Here](https://hafedefheij.github.io/Portfolio-setup-and-
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Here you can see a  [Live Demo]( https://hafedefheij.github.io/Portfolio-setup-and-mobile-first/) of my project.
+- N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
@@ -74,7 +70,7 @@ To get a local copy up and running, follow these steps.
 
 ```sh
   cd my-folder
-  git git@github.com:hafedEfheij/Portfolio-setup-and-mobile-first.git
+  git git@github.com:damiandib9/personal-portfolio.git
 ```
 
 ### Prerequisites
@@ -91,7 +87,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:hafedEfheij/Portfolio-setup-and-mobile-first.git
+  git clone git@github.com:damiandib9/personal-portfolio.git
 
 ### Install
 
@@ -124,89 +120,58 @@ To run tests, run the following command:
 ### Deployment
 
 - Deployed with github pages at:
-- https://github.com/hafedEfheij/Portfolio-setup-and-mobile-first
+- https://damiandib9.github.io/personal-portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Hafed Efheij**
+👤 **Damian**
 
-- GitHub: [@hafed-Efheij](https://github.com/Hafedefheij)
-- LinkedIn: [Hafed-Efehij](https://linkedin.com/in/hafedefheij)
-
-👤 **Oscar Villagran**
-
-- GitHub: [@oovillagran](https://github.com/oovillagran)
-- LinkedIn: [oovillagran](https://www.linkedin.com/in/oovillagran/)
-- 
-👤 **Damian Dib Bustros**
-
-- GitHub: [@DamianDib9](https://github.com/oovillagran)
-- LinkedIn: [DamianDib](https://ar.linkedin.com/in/damian-dib-bustros-953577261)
-
-
+- GitHub: [@githubhandle](https://github.com/damiandib9)
+- Twitter: [@twitterhandle](https://twitter.com/devbustros)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/damian-dib-bustros-953577261)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Make MORE button on the home page functional]**
-- [ ] **[Tickets page]**
-- [ ] **[Schedula page]**
+- [ ] **[New user interface]**
+- [ ] **[Picture Slideshow]**
+- [ ] **[User forum]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Please star this project if you like this project.
+
+If you like this project please share it with your friends.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
+I would like to thank all of my family for helping me trough this Microverse course.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Can I re-use your code?**
-
-  - Sure, no problem!..
-
-- **How can I see the project?**
-
-  - Just clone the repository as expained in the setup section, and open the index.html file in your preferred browser ...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](LICENSE.md) licensed.
